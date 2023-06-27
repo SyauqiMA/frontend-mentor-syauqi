@@ -210,7 +210,7 @@ a.continue-button {
 	background-color: hsl(224, 30%, 27%);
 }
 
-a.continue-button:active {
+a.continue-button:hover {
 	background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 /* RIGHT COLUMN END */
