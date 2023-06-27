@@ -24,7 +24,7 @@ p {
 	font-family: 'hanken-grotesk';
 }
 
-.container {
+main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
