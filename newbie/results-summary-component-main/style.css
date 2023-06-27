@@ -196,7 +196,7 @@ div.category-score > p {
 span.category-score-max {
 	color: hsla(224, 30%, 27%, 50%);
 }
-.continue-button {
+a.continue-button {
 	display: inline-block;
 	text-decoration: none;
 	text-align: center;
@@ -208,6 +208,10 @@ span.category-score-max {
 	font-weight: 600;
 	color: white;
 	background-color: hsl(224, 30%, 27%);
+}
+
+a.continue-button:active {
+	background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 /* RIGHT COLUMN END */
 
