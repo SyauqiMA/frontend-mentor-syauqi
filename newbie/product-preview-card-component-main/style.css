@@ -95,7 +95,7 @@ main {
 	color: hsl(228, 12%, 48%);
 }
 
-.add-cart {
+a.add-cart {
 	font-family: 'Montserrat', serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -108,6 +108,11 @@ main {
 	background-color: hsl(158, 36%, 37%);
 	border-radius: 8px;
 	vertical-align: middle;
+	transition: 0.3s;
+}
+
+a.add-cart:hover {
+	background-color: hsl(158, 36%, 20%);
 }
 
 .cart-icon {
